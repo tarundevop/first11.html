@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>3csstask</title>
+    <style>
+    {
+        box-sizing:border-box;
+    }
+        .parent{
+            width: 600px;
+            height: 600px;
+            border:10px solid black;
+            border-radius: 20px;
+        }
+        .child{
+            width:580px;
+            height: 580px;
+            border: 10px solid black;
+            border-radius:50% ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subchild1{
+            width:20%;
+            height: 20%;
+            border: 2px solid black;
+            border-radius:50% ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+
+        }
+        </style>
+        <body>
+            <div class="parent">
+            <div class="child">
+            <div class="subchild1"></div>
+            <div class="subchild1"></div>
+            <div class="subchild1"></div>
+            </div>
+            </div>
+        </body>
